@@ -4,152 +4,155 @@
     <meta charset="UTF-8">
     <title>Dmitry Kartuzov CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="fonts/material-icons.css">
+    <link rel="icon" href="images/favicon.ico"/>
 </head>
 <body>
 <div class="container">
-<header>
-    <nav id="nav" class="nav">
-        <ul class="nav-menu">
-            <li><a href="#about">About me</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#languages">Languages</a></li>
-            <li><a href="#code_example">Code Example</a></li>
-        </ul>
-    </nav>
-</header>
-<main class="main-wrapper">
-    <section class="left">
-        <article>
-            <div>
-                <img class="ava" src="images/photo.jpg" alt="Profile_photo">
-            </div>
-            <h1>Dmitry Kartuzov<br><span>Maybe future front-end developer:)</span></h1>
-        </article>
-        <article id="contacts"><h3>Contacts</h3>
-            <ul>
-                <li>
-                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                    <span>Minsk, Belarus</span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                    <span><a href="mailto:smile_181@tut.by">smile_181@tut.by</a></span>
-                </li>
-                <li>
-                    <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-                    <span><a href="https://github.com/DmitryKartuzov" target="_blank">DmitryKartuzov</a></span>
-                </li>
+    <header>
+        <nav id="nav" class="nav">
+            <ul class="nav-menu">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#code_example">Code Example</a></li>
             </ul>
-        </article>
-        <article id="education"><h3>Education</h3>
-            <ul>
-                <li>
-                    <h5>2005 - 2010</h5>
-                    <h4>Engineer</h4>
-                    <h4>Belarusian State Technical University</h4>
-                </li>
-            </ul>
-        </article>
-        <article id="languages"><h3>Languages</h3>
-            <ul>
-                <li>
-                    <span class="text">English</span>
-                    <div class="percent">
-                        <div style="width: 50%;"></div>
-                    </div>
-                </li>
-                <li>
-                    <span class="text">Russian</span>
-                    <div class="percent">
-                        <div style="width: 95%;"></div>
-                    </div>
-                </li>
-                <li>
-                    <span class="text">Belarusian</span>
-                    <div class="percent">
-                        <div style="width: 97%;"></div>
-                    </div>
-                </li>
-            </ul>
-        </article>
-    </section>
-    <section class="right">
-        <article id="about">
-            <h2 class="title-2">About me</h2>
-            <p>I had worked in the field of outdoor advertising for some time.
-                Finally, I realized that programming is what attracts me the most.
-                Now I'm learning JavaScript and related technologies.
-                I want to get practice, skills and new experience in front-end development.
-            </p></article>
-        <article id="skills">
-            <h2 class="title-2">Skills</h2>
-            <ul>
-                <li class="box">
-                    <h4>JS</h4>
-                    <div class="percent">
-                        <div style="width: 5%;"></div>
-                    </div>
-                </li>
-                <li class="box">
-                    <h4>HTML</h4>
-                    <div class="percent">
-                        <div style="width: 70%;"></div>
-                    </div>
-                </li>
-                <li class="box">
-                    <h4>CSS</h4>
-                    <div class="percent">
-                        <div style="width: 50%;"></div>
-                    </div>
-                <li class="box">
-                    <h4>Git</h4>
-                    <div class="percent">
-                        <div style="width: 60%;"></div>
-                    </div>
-                </li>
-            </ul>
-        </article>
-
-        <article id="projects">
-            <h2 class="title-2">Projects</h2>
-            <div>...coming soon</div>
-            <div class="">
-                <h4>CV</h4>
-                <a href="https://dmitrykartuzov.github.io/rsschool-cv/cv" target="_blank">
-                   <!-- <img src="images/cv.jpg" alt="cv project">-->
-                </a>
-            </div>
-        </article>
-        <article id="code_example">
-            <h2 class="title-2">Code example</h2>
-            <div><code>function multiply(a, b){
-                return a * b
-                }
-            </code></div>
-        </article>
-
-
-    </section>
-
-
-</main>
-<footer>
-    <div class="git_link">
-        <a href="https://github.com/DmitryKartuzov" target="_blank">
-        <span class="icon">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </span>
-            Visit my GitHub</a>
-    </div>
-    <div>© 2022</div>
-    <div class="logo">
-        <a href="https://rs.school/js-stage0/" target="_blank">
-            <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool_logo">
-        </a>
-    </div>
-</footer></div>
+        </nav>
+    </header>
+    <main class="main-wrapper">
+        <section class="left">
+            <article class="bio">
+                <div>
+                    <img class="ava" src="images/photo.jpeg" alt="Profile_photo">
+                </div>
+                <h1>Dmitry Kartuzov</h1>
+                <div class="about-me">Maybe future front-end developer:)</div>
+            </article>
+            <article id="contacts" class="contacts"><h3>Contacts</h3>
+                <ul>
+                    <li>
+                        <span class="icon"> <i class="material-icons location_on">location_on</i> </span>
+                        <span>Minsk, Belarus</span>
+                    </li>
+                    <li>
+                        <span class="icon"> <i class="material-icons email">email</i> </span>
+                        <span><a href="mailto:smile_181@tut.by">smile_181@tut.by</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"> <i class="material-icons computer">computer</i> </span>
+                        <span><a href="https://github.com/DmitryKartuzov" target="_blank">DmitryKartuzov</a></span>
+                    </li>
+                </ul>
+            </article>
+            <article id="education"><h3>Education</h3>
+                <ul>
+                    <li>
+                        <span>2005 - 2010</span>
+                    </li>
+                    <li>
+                        <span>Engineer</span>
+                    </li>
+                    <li>
+                        <span>Belarusian State Agrarian and Technical University</span>
+                    </li>
+                </ul>
+            </article>
+            <article id="languages"><h3>Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <div class="percent">
+                            <div style="width: 50%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="text">Russian</span>
+                        <div class="percent">
+                            <div style="width: 95%;"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="text">Belarusian</span>
+                        <div class="percent">
+                            <div style="width: 77%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="right">
+            <article id="about">
+                <h2 class="title-2">About me</h2>
+                <p>I had worked in the field of outdoor advertising for some time.
+                    Finally, I realized that programming is what attracts me the most.
+                    Now I'm learning JavaScript and related technologies.
+                    I want to get practice, skills and new experience in front-end development.
+                </p></article>
+            <article id="skills" class="skills">
+                <h2 class="title-2">Skills</h2>
+                <ul>
+                    <li class="box">
+                        <h4>JS</h4>
+                        <div class="percent">
+                            <div style="width: 3%;"></div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <h4>HTML</h4>
+                        <div class="percent">
+                            <div style="width: 73%;"></div>
+                        </div>
+                    </li>
+                    <li class="box">
+                        <h4>CSS</h4>
+                        <div class="percent">
+                            <div style="width: 55%;"></div>
+                        </div>
+                    <li class="box">
+                        <h4>Git</h4>
+                        <div class="percent">
+                            <div style="width: 60%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <article id="projects">
+                <h2 class="title-2">Projects</h2>
+                <div class="projects">
+                    <a href="https://dmitrykartuzov.github.io/rsschool-cv/ " target="_blank">
+                        CV
+                    </a>
+                </div>
+                <div>...coming soon</div>
+            </article>
+            <article id="code_example">
+                <h2 class="title-2">Code example</h2>
+                <div><code>function multiply(a, b){
+                    return a * b
+                    }
+                </code></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="git_link">
+            <a href="https://github.com/DmitryKartuzov" target="_blank">
+                Visit my GitHub</a>
+        </div>
+        <div>© 2022</div>
+        <div class="logo">
+            <a href="https://rs.school/js-stage0/" target="_blank">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool_logo">
+            </a>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
