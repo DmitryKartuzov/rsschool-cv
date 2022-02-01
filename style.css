@@ -1,0 +1,159 @@
+@font-face {
+    font-family: awesome;
+    src: url(fonts/FontAwesome5Brands-Regular-400.otf);
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-menu li a:hover, .contacts li a:hover, footer a:hover, .projects a:hover {
+    color: #ff8c00;
+    transition: 1s
+}
+
+body {
+    background-color: #464646;
+    font-family: 'Prompt', sans-serif;
+    color: #abacb2;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background-color: #292929;
+    margin: 25px auto 15px auto;
+    border-radius: 10px;
+
+}
+
+.nav {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    align-content: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 15px;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-wrapper {
+    display: flex;
+
+
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ava {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 32px;
+    margin: 5px 0 0 0;
+}
+
+.about-me {
+    font-size: 12px;
+    font-style: italic;
+    color: #e27c00;
+}
+
+.left {
+    width: 30%;
+    background-color: #292929;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right {
+    width: 70%;
+    background-color: #29292991;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.left, .right {
+    padding: 20px;
+}
+
+.contacts li a, .projects a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+.skills ul {
+    padding-right: 40px;
+}
+
+.percent {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: whitesmoke;
+}
+
+.percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #a9570bf7;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #292929;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px 0;
+}
+
+footer a {
+    color: #9d9d9d;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.title-2 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
